@@ -7,6 +7,12 @@ import { FaBookOpen, FaSearch, FaSun, FaCode, FaLaptop, FaChalkboardTeacher, FaU
 import { SiExpress, SiMongodb } from 'react-icons/si'
 import { IoLogoCss3 } from 'react-icons/io'
 import { Link } from 'react-router-dom'
+import sushree from '../assets/profilepicture/Sushree1.jpg'
+import bibek from '../assets/profilepicture/Bibek.jpg'
+import amarnath from '../assets/profilepicture/Amarnath.jpg'
+import anup from '../assets/profilepicture/Anup.jpg'
+import amarjeet from '../assets/profilepicture/Amarjeet.jpg'
+import aryan from '../assets/profilepicture/Aryan.jpg'
 
 const About = () => {
     const features = [
@@ -74,32 +80,32 @@ const About = () => {
         {
           id: 1,
           name: "Sushree",
-          image: "src/assets/profilepicture/Sushree1.jpg",
+          image: { sushree },
         },
         {
           id: 2,
           name: "Bibek",
-          image: "src/assets/profilepicture/Bibek.jpg",
+          image: { bibek },
         },
         {
           id: 3,
           name: "Amarnath",
-          image: "src/assets/profilepicture/Amarnath.jpg",
+          image: { amarnath },
         },
         {
           id: 4,
           name: "Anup",
-          image: "src/assets/profilepicture/Anup.jpg",
+          image: { anup },
         },
         {
           id: 5,
           name: "Amarjeet",
-          image: "src/assets/profilepicture/Amarjeet.jpg",
+          image: { amarjeet },
         },
         {
           id: 6,
           name: "Aryan",
-          image: "src/assets/profilepicture/Aryan.jpg",
+          image: { aryan }
         },
       ];
       
