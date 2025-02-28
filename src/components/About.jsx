@@ -80,32 +80,32 @@ const About = () => {
         {
           id: 1,
           name: "Sushree",
-          image: { sushree },
+          image: sushree ,
         },
         {
           id: 2,
           name: "Bibek",
-          image: { bibek },
+          image: bibek ,
         },
         {
           id: 3,
           name: "Amarnath",
-          image: { amarnath },
+          image:  amarnath ,
         },
         {
           id: 4,
           name: "Anup",
-          image: { anup },
+          image: anup,
         },
         {
           id: 5,
           name: "Amarjeet",
-          image: { amarjeet },
+          image: amarjeet,
         },
         {
           id: 6,
           name: "Aryan",
-          image: { aryan }
+          image: aryan
         },
       ];
       
