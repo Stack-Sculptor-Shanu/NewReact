@@ -78,28 +78,39 @@ color: black !important;
   color: rgb(49, 49, 49);  
   /* animation-delay: 2s; */
 }
-.textbox button{
+.btnlink {
+  text-decoration: none; 
+  display: inline-block;  /* Ensures it behaves like a button */
+}
+
+.popup {
   padding: 20px 70px;
-  background-color: #29017a ;
+  background-color: #29017a;
   border: 2px solid #29017a;
+  color: white;
+  font-size: 20px;
   border-radius: 50px;
   margin-top: 40px;
   border-bottom-right-radius: 2px;
   transition: all 0.3s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;  /* Ensures the button stretches to the parent Link */
 }
-.textbox button:hover{
+
+.popup:hover {
   background-color: white;
+  color: #29017a;
   border: 2px solid #29017a;
 }
-.textbox button:hover .btnlink{
+
+.popup:hover .btnlink {
   color: #29017a;
   font-weight: 600;
 }
-.textbox .btnlink{
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-}
+
 .textbox h1,
 .textbox h4 {
 animation: slideInFromLeft 2s ease-in-out forwards;

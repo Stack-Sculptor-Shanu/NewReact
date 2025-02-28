@@ -188,9 +188,9 @@ const FirstPage = () => {
           <p>Discover the power of React and how it can help you create dynamic and responsive web applications efficiently.
           React's component-based architecture allows for reusable code, making development more streamlined and maintainable. Its virtual DOM ensures high performance by updating only the necessary parts of the user interface.</p>
           {isButtonVisible && (
-        <button className="popup">
-          <Link to="/home" className="btnlink">Explore More</Link>
-        </button>
+        <Link to="/home" className="btnlink">
+          <button className="popup">Explore More</button>
+        </Link>
       )}    </div>
 
         <div className="gif1">
