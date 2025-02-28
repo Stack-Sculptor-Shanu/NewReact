@@ -242,9 +242,9 @@ const FirstPage = () => {
         </div>
         <div className="textbox3">
         <h1>Ready to Dive into React? Start Your Journey with Our Comprehensive Tutorials and Hands-On Projects!</h1>
-        <button className="button-pulse">
-          <Link to="/home" className="btnlink">Let's Code</Link>
-        </button>
+        <Link to="/home" className="btnlink">
+          <button className="popup">Let's Code</button>
+        </Link>
         </div>
         <div className="firstpage-footer">
         <div className="footer-content">
